@@ -1,0 +1,1207 @@
+		*{
+			font-family: montserrat, sans-serif;
+			margin: 0px;
+			padding: 0px;
+
+		}
+		body{
+			background-color: #000000;
+			position: relative;
+		}
+		input{
+			position: absolute;
+
+		}
+		.navbar{
+	    	height: 100px;
+			padding: 0 100px;
+			background: #1F1F1F;
+		    color: #fff
+		}
+		.header{
+		  line-height: 100px;
+		  float: left;
+		  text-transform: uppercase;
+		  font-size: 16px;
+		}
+		.menu{
+			float: right;
+			color: white;
+			line-height: 100px;
+			font-size: 16px;
+		}
+
+		.menu a{
+			  color: #fff;
+			  text-decoration: none;
+			  padding: 0 32px;
+			  transition: 0.4s;
+		}
+
+		.menu a:hover,
+		.show-menu-btn:hover,
+		.hide-menu-btn:hover{
+		  color: orange;
+		}
+
+		.show-menu-btn,.hide-menu-btn{
+		  transition: 0.4s;
+		  font-size: 30px;
+		  cursor: pointer;
+		  display: none;
+		}
+
+		.show-menu-btn{
+			float: right;
+		}
+
+		.show-menu-btn i{
+		    line-height: 100px;
+		}
+
+		#chk{
+			position: absolute;
+			visibility: hidden;
+			z-index: -1111;
+		}
+
+			@media screen and (max-width:800px) {
+			  .show-menu-btn,.hide-menu-btn{
+			    display: block;
+			  }
+			  .menu{
+			    position: fixed;
+			    width: 100%;
+			    height: 100vh;
+			    background: #333;
+			    right: -100%;
+			    top: 0;
+			    text-align: center;
+			    padding: 80px 0;
+			    line-height: normal;
+			    transition: 0.7s;
+			  }
+			  .menu a{
+			    display: block;
+			    padding: 20px;
+			  }
+			  .hide-menu-btn{
+			    position: absolute;
+			    top: 40px;
+			    right: 40px;
+			  }
+			  #chk:checked ~ .menu{
+			    right: 0;
+			  }
+			}
+
+			.nama{
+				position: absolute;
+				width: 462px;
+				height: 29px;
+				left: 136px;
+				top: 349px;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 26px;
+				line-height: 29px;
+				color: #F5CE00;
+			}
+
+			.gelar{
+				position: absolute;
+				width: 682px;
+				height: 55px;
+				left: 136px;
+				top: 402px;
+				font-family: Montserrat;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 36px;
+				line-height: 44px;
+				text-transform: capitalize;
+				color: #FFFFFF;
+			}
+
+			.deskripsi{
+				position: absolute;
+				width: 632px;
+				height: 106px;
+				left: 136px;
+				top: 517px;
+				font-style: normal;
+				font-weight: 500;
+				font-size: 16px;
+				line-height: 30px;
+				color: #ADADAD;
+			}
+
+			.gambar{
+				position: absolute;
+				position: absolute;
+				width: 404.54px;
+				height: 621px;
+				left: 842px;
+				top: 287px;
+			}
+			
+			.email1{
+				position: absolute;
+				width: 100px;
+				height: 40px;
+				left: 141px;
+				top: 737px;
+				background: #F5CE00;
+				border-radius: 10px;
+				border: none;
+				cursor: pointer;
+				font size: 8px;
+			}
+
+			.downloadcv{
+				position: absolute;
+				width: 150px;
+				height: 24px;
+				left: 136px;
+				top: 801px;
+				color: white;
+				text-decoration: none;
+				font-size: 12px;
+			}
+	
+			.myproject{
+				position: absolute;
+				width: 202px;
+				height: 44px;
+				left: 150px;
+				top: 1003px;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 34px;
+				line-height: 44px;
+				color: #FFFFFF;
+			}
+
+	/*gelas kaca*/
+			.kotak1{
+				position: absolute;
+				left: 0%;
+				right: 7.64%;
+				top: 0%;
+				bottom: 0%;
+				background: #120F0F;
+				border-radius: 10px;
+				width: 1070px;
+				height: 200px;
+				left: 139px;
+				top: 1099px;
+				}
+
+			.gelaskaca{
+				position: absolute;
+				left: 4.44%;
+				right: 67.92%;
+				top: 7.49%;
+				bottom: 8.67%;
+				border-radius: 20px;
+				width: 260px;
+				height: 170px;
+			}
+
+			.judul1{
+				position: absolute;
+				left: 34.39%;
+				right: 27.1%;
+				top: 39.68%;
+				bottom: 40.08%;					
+				font-style: normal;
+				font-weight: bold;
+				font-size: 30px;
+				line-height: 44px;
+				color: #FFFFFF;
+			}
+
+			.button1{
+				position: absolute;
+				Top: 1180px;
+				Left:  1020px;
+				Radius :15px;
+				background: #777777;
+				border-radius: 10px;
+				Width :90px;
+				Height: 45px;
+				background: #F5CE00;
+				border: none;
+				cursor: pointer;
+				font-size: 10px;
+			}
+
+	/*pom bensin keliling*/
+			.kotak2{
+				position: absolute;
+				left: 0%;
+				right: 1.13%;
+				top: 0%;
+				bottom: 0%;
+				background: #120F0F;
+				border-radius: 10px;
+				width: 1070px;
+				height: 200px;
+				left: 139px;
+				top: 1335px;
+			}
+
+			.pomkeliling{
+				position: absolute;
+				left: 4.34%;
+				right: 68.06%;
+				top: 6.56%;
+				bottom: 9.43%;
+				border-radius: 20px;
+				width: 260px;
+				height: 170px;
+			}
+
+			.judul2{
+				position: absolute;
+				left: 34.35%;
+				right: 36.95%;
+				top: 40.00%;
+				bottom: 38.84%;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 30px;
+				line-height: 44px;
+				color: #FFFFFF;
+			}
+
+			.button2{
+				position: absolute;
+				Top: 1420px;
+				Left:  1020px;
+				background: #777777;
+				border-radius: 10px;
+				Width :90px;
+				Height: 45px;
+				background: #F5CE00;
+				border: none;
+				cursor: pointer;
+				font-size: 10px;
+			}
+
+			.seemore{
+				position: absolute;
+				width: 200px;
+				height: 28px;
+				left: 173px;
+				top: 1604px;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 20px;
+				line-height: 28px;
+				color: #FFFFFF;
+			}
+
+			.hireme{
+				position: absolute;
+				width: 275px;
+				height: 160px;
+				left: 535px;
+				top: 1846px;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 36px;
+				line-height: 160px;
+				color: #FFFFFF;
+			}
+
+			.persegi1{
+				position: absolute;
+				width: 230px;
+				height: 230px;
+				left: 110px;
+				top: 2077.75px;
+				background: #120F0F;
+				border-radius: 20px;
+			}
+
+			.logo1{
+				position: absolute;
+				position: absolute;
+				width: 50.33px;
+				height: 50.33px;
+				left: 100.5px;
+				top: 90.3px;
+				border: none;
+				box-sizing: none;
+				color: white;
+			}
+
+			.communicative{
+				position: absolute;
+				width: 41.33px;
+				height: 41.33px;
+				left: 48px;
+				top: 135.3px;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 20px;
+				line-height: 44px;
+				color: #FFFFFF;
+			}
+
+			.persegi2{
+				position: absolute;
+				width: 230px;
+				height: 230px;
+				left: 390.1px;
+				top: 2075px;
+				background: #120F0F;
+				border-radius: 20px;
+			}
+
+			.logo2{
+				position: absolute;
+				width: 50.33px;
+				height: 50.33px;
+				left: 100.5px;
+				top: 90.3px;
+				border: none;
+				box-sizing: none;
+				color: white;
+			}
+
+			.creative{
+				position: absolute;
+				width: 41.33px;
+				height: 41.33px;
+				left: 77px;
+				top: 139px;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 20px;
+				line-height: 44px;
+				color: #FFFFFF;
+			}	
+
+			.persegi3{
+				position: absolute;
+				width: 230px;
+				height: 230px;
+				left: 670.8px;
+				top: 2075px;
+				background: #120F0F;
+				border-radius: 20px;
+			}
+
+			.logo3{
+				position: absolute;
+				width: 54px;
+				height: 54px;
+				left: 100.5px;
+				top: 90.3px;
+				border: none;
+				box-sizing: none;
+				color: white;
+			}
+
+			.collaborative{
+				position: absolute;
+				width: 41.33px;
+				height: 41.33px;
+				left: 58px;
+				top: 139px;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 20px;
+				line-height: 44px;
+				color: #FFFFFF;
+			}	
+			
+			.persegi4{
+				position: absolute;
+				width: 230px;
+				height: 230px;
+				left: 950.87px;
+				top: 2075px;
+				background: #120F0F;
+				border-radius: 20px;
+			}
+
+			.logo4{
+				position: absolute;
+				width: 54px;
+				height: 54px;
+				left: 100.5px;
+				top: 90.3px;
+				border: none;
+				box-sizing: none;
+				color: white;
+			}
+
+			.favorite{
+				position: absolute;
+				width: 189px;
+				height: 25px;
+				left: 50px;
+				top: 139px;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 20px;
+				line-height: 44px;
+				color: #FFFFFF;
+			}	
+
+			.testimonials{
+				position: absolute;
+				width: 275px;
+				height: 160px;
+				left: 70px;
+				top: 1280px;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 36px;
+				line-height: 160px;
+				color: #FFFFFF;
+
+			}
+
+			.kotak3{
+				position: absolute;
+				width: 1000px;
+				height: 208px;
+				left: 80px;
+				top: 1450px;
+				background: #120F0F;
+				border-radius: 20px;
+			}
+
+			.kotak4{
+				position: absolute;
+				width: 1000px;
+				height: 208px;
+				left: 80px;
+				top: 1700px;
+				background: #120F0F;
+				border-radius: 20px;
+			}
+			
+			.fototino{
+				position: absolute;
+				width: 252px;
+				height: 195px;
+				left: 52px;
+				top: 13px;
+				background: url(.png);
+			}
+
+			.tino{
+				position: absolute;
+				width: 443px;
+				height: 113px;
+				left: 350px;
+				top: 1px;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 30px;
+				line-height: 160px;
+				color: #FFFFFF;
+			}
+
+			.testitino{
+				position: absolute;
+				width: 600px;
+				height: 59px;
+				left: 350px;
+				top: 120px;
+				font-style: normal;
+				font-weight: 500;
+				font-size: 14px;
+				line-height: 20px;
+				text-transform: capitalize;
+				color: #ADADAD;
+			}
+
+			.fotorenard{
+				position: absolute;
+				width: 252px;
+				height: 195px;
+				left: 52px;
+				top: 13px;
+				background: url(.png);
+			}
+
+			.renard{
+				position: absolute;
+				width: 443px;
+				height: 113px;
+				left: 350px;
+				top: 1px;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 30px;
+				line-height: 160px;
+				color: #FFFFFF;
+			}
+
+			.testirenard{
+				position: absolute;
+				width: 600px;
+				height: 59px;
+				left: 350px;
+				top: 120px;
+				font-style: normal;
+				font-weight: 500;
+				font-size: 14px;
+				line-height: 20px;
+				text-transform: capitalize;
+				color: #ADADAD;
+			}
+
+			.skills{
+				position: absolute;
+				width: 300px;
+				height: 160px;
+				left: 152px;
+				top: 3391px;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 36px;
+				line-height: 160px;
+				color: #FFFFFF;
+
+			}
+
+			.fotoskills{
+				position: absolute;
+				width: 750px;
+				height: 70px;
+				left: 300px;
+				top: 3613px;
+			}
+
+			.kotak5{
+				position: absolute;
+				width: 1262px;
+				height: 409px;
+				left: 0px;
+				top: 3969px;
+				background: #141313;
+			}
+
+			.get{
+				position: absolute;
+				width: 240.93px;
+				height: 34.07px;
+				left: 150.06px;
+				top: 121px;					
+				font-style: normal;
+				font-weight: bold;
+				font-size: 36px;
+				line-height: 44px;
+				color: #FFFFFF;
+				}
+
+			.forbusiness{
+				position: absolute;
+				width: 867.13px;
+				height: 22.46px;
+				left: 146.95px;
+				top: 192.62px;
+				font-style: normal;
+				font-weight: semi-bold;
+				font-size: 24px;
+				line-height: 29px;
+				color: #FFFFFF;
+			}
+
+			.logo5{
+				position: absolute;
+				Width :43px;
+				Height :43px;
+				Top :244px;
+				Left: 147px;
+				border: none;
+				box-sizing: none;
+				color: white;
+				cursor: pointer;
+			}
+
+			.logo6{
+				position: absolute;
+				Width :80px;
+				Height :80px;
+				Top :244px;
+				Left: 235px;
+				border: none;
+				box-sizing: none;
+				color: white;
+				cursor: pointer;
+				size: 80px;
+			}
+
+			.logo7{
+				position: absolute;
+				Width :43px;
+				Height :43px;
+				Top :244px;
+				Left: 322px;
+				border: none;
+				box-sizing: none;
+				color: white;
+				cursor: pointer;
+			}
+
+			.project{
+				position: absolute;
+				width: 136px;
+				height: 44px;
+				left: 157px;
+				top: 344px;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 36px;
+				line-height: 44px;
+				color: #FFFFFF;
+			}
+
+			.pptgelas{
+				position: absolute;
+				width: 400px;
+				height: 250px;
+				left: 151px;
+				top: 503px;
+				border-radius: 20px;
+			}
+
+			.ppt1{
+				position: absolute;
+				width: 293px;
+				height: 25px;
+				left: 151px;
+				top: 800px;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 24px;
+				line-height: 29px;
+				color: #FFFFFF;
+
+			}
+
+			.visitweb1{
+				position: absolute;
+				width: 141.16px;
+				height: 20.11px;
+				left: 151.84px;
+				top: 840px;
+				color: white;
+				text-decoration: none;
+				font-size: 16px;
+
+			}
+
+			.pptpom{
+				position: absolute;
+				width: 400px;
+				height: 250px;
+				left: 700px;
+				top: 503px;
+				border-radius: 20px;
+			}
+
+			.ppt2{
+				position: absolute;
+				width: 293px;
+				height: 25px;
+				left: 700px;
+				top: 800px;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 24px;
+				line-height: 29px;
+				color: #FFFFFF;
+
+			}
+
+			.visitweb2{
+				position: absolute;
+				width: 141.16px;
+				height: 20.11px;
+				left: 700px;
+				top: 840px;
+				color: white;
+				text-decoration: none;
+				font-size: 16px;
+			}
+
+			.pptsmarthome{
+				position: absolute;
+				width: 400px;
+				height: 250px;
+				left: 151px;
+				top: 1009px;
+				border-radius: 20px;
+
+			}
+
+			.ppt3{
+				position: absolute;
+				width: 400px;
+				height: 25px;
+				left: 151px;
+				top: 1300px;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 24px;
+				line-height: 29px;
+				color: #FFFFFF;
+
+			}
+
+			.visitweb3{
+				position: absolute;
+				width: 373px;
+				height: 24.76px;
+				left: 151.84px;
+				top: 1335px;
+				color: white;
+				text-decoration: none;
+				font-size: 16px;
+			}
+
+			.pptpkm{
+				position: absolute;
+				width: 400px;
+				height: 250px;
+				left: 700px;
+				top: 1009px;
+				border-radius: 20px;
+
+			}
+
+			.ppt4{
+				position: absolute;
+				width: 400px;
+				height: 25px;
+				left: 700px;
+				top: 1300px;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 24px;
+				line-height: 29px;
+				color: #FFFFFF;
+
+			}
+
+			.visitweb4{
+				position: absolute;
+				width: 373px;
+				height: 24.76px;
+				left: 700px;
+				top: 1335px;
+				color: white;
+				text-decoration: none;
+				font-size: 16px;
+			}
+
+			.kotak6{
+				position: absolute;
+				width: 1262px;
+				height: 409px;
+				left: 0px;
+				top: 1791px;
+				background: #141313;
+			}
+			.get2{
+				position: absolute;
+				width: 240.93px;
+				height: 34.07px;
+				left: 150.06px;
+				top: 121px;					
+				font-style: normal;
+				font-weight: bold;
+				font-size: 36px;
+				line-height: 44px;
+				color: #FFFFFF;
+				}
+
+			.forbusiness2{
+				position: absolute;
+				width: 867.13px;
+				height: 22.46px;
+				left: 146.95px;
+				top: 192.62px;
+				font-style: normal;
+				font-weight: semi-bold;
+				font-size: 24px;
+				line-height: 29px;
+				color: #FFFFFF;
+			}
+
+			.logo8{
+				position: absolute;
+				Width :43px;
+				Height :43px;
+				Top :244px;
+				Left: 147px;
+				border: none;
+				box-sizing: none;
+				color: white;
+				cursor: pointer;
+			}
+
+			.logo9{
+				position: absolute;
+				Width :43px;
+				Height :43px;
+				Top :244px;
+				Left: 235px;
+				border: none;
+				box-sizing: none;
+				color: white;
+				cursor: pointer;
+			}
+
+			.logo10{
+				position: absolute;
+				Width :43px;
+				Height :43px;
+				Top :244px;
+				Left: 322px;
+				border: none;
+				box-sizing: none;
+				color: white;
+				cursor: pointer;
+			}
+
+			.blog{
+				position: absolute;
+				width: 136px;
+				height: 44px;
+				left: 157px;
+				top: 344px;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 36px;
+				line-height: 44px;
+				color: #FFFFFF;
+
+			}
+
+			.blog1{
+				position: absolute;
+				width: 480px;
+				height: 270px;
+				left: 143px;
+				top: 457px;
+				border-radius: 20px;
+			}
+			
+			.judulblog1{
+				position: absolute;
+				width: 550px;
+				height: 72.78px;
+				left: 680.41px;
+				top: 457px;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 30px;
+				line-height: 40px;
+				text-transform: capitalize;
+				color: #FFFFFF;
+			}
+
+			.keteranganblog1{
+				position: absolute;
+				width: 453.9px;
+				height: 49.3px;
+				left: 680.41px;
+				top: 613.52px;
+				font-style: normal;
+				font-weight: lighter;
+				font-size: 16px;
+				line-height: 20px;
+				color: #E5E5E5;
+			}
+
+			.visitblog{
+				position: absolute;
+				width: 500px;
+				height: 20px;
+				left: 680.41px;
+				top: 700px;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+				line-height: 20px;
+				text-decoration: none;
+				color: #CFAE02;
+			}
+
+			.blog2{
+				position: absolute;
+				width: 480px;
+				height: 270px;
+				left: 143px;
+				top: 810.03px;
+				border-radius: 20px;
+			}
+			
+			.judulblog2{
+				position: absolute;
+				width: 550px;
+				height: 72.78px;
+				left: 680.41px;
+				top: 810.03px;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 30px;
+				line-height: 40px;
+				text-transform: capitalize;
+				color: #FFFFFF;
+			}
+
+			.keteranganblog2{
+				position: absolute;
+				width: 453.9px;
+				height: 49.3px;
+				left: 680.41px;
+				top: 932px;
+				font-style: normal;
+				font-weight: lighter;
+				font-size: 16px;
+				line-height: 20px;
+				color: #E5E5E5;
+			}
+
+			.visitblog2{
+				position: absolute;
+				width: 500px;
+				height: 20px;
+				left: 680.41px;
+				top: 1050px;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+				line-height: 20px;
+				text-decoration: none;
+				color: #CFAE02;
+			}
+
+			.blog3{
+				position: absolute;
+				width: 400px;
+				height: 250px;
+				left: 156px;
+				top: 1250px;
+				border-radius: 20px;
+			}
+
+			.judulblog3{
+				position: absolute;
+				width: 500px;
+				height: 34px;
+				left: 166px;
+				top: 1527px;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 22px;
+				line-height: 34px;
+				color: #FFFFFF;
+				text-transform: capitalize;
+			}
+
+			.visitblog3{
+				position: absolute;
+				width: 150px;
+				height: 20px;
+				left: 166px;
+				top: 1597px;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 12px;
+				line-height: 20px;
+				color: #CFAE02;
+				text-decoration: none;
+			}
+
+			.blog4{
+				position: absolute;
+				width: 400px;
+				height: 250px;
+				left: 738px;
+				top: 1250px;
+				border-radius: 20px;
+			}
+
+			.judulblog4{
+				position: absolute;
+				width: 500px;
+				height: 34px;
+				left: 738px;
+				top: 1527px;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 22px;
+				line-height: 34px;
+				color: #FFFFFF;
+				text-transform: capitalize;
+			}
+
+			.visitblog4{
+				position: absolute;
+				width: 150px;
+				height: 20px;
+				left: 738px;
+				top: 1597px;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 12px;
+				line-height: 20px;
+				color: #CFAE02;
+				text-decoration: none;
+			}
+
+			.blog5{
+				position: absolute;
+				width: 400px;
+				height: 250px;
+				left: 166px;
+				top: 1695px;
+				border-radius: 20px;
+			}
+
+			.judulblog5{
+				position: absolute;
+				width: 500px;
+				height: 34px;
+				left: 166px;
+				top: 1968px;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 22px;
+				line-height: 34px;
+				color: #FFFFFF;
+				text-transform: capitalize;
+			}
+
+			.visitblog5{
+				position: absolute;
+				width: 150px;
+				height: 20px;
+				left: 166px;
+				top: 2008px;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 12px;
+				line-height: 20px;
+				color: #CFAE02;
+				text-decoration: none;
+			}
+
+			.blog6{
+				position: absolute;
+				width: 400px;
+				height: 250px;
+				left: 738px;
+				top: 1695px;
+				border-radius: 20px;
+			}
+
+			.judulblog6{
+				position: absolute;
+				width: 500px;
+				height: 34px;
+				left: 738px;
+				top: 1968px;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 22px;
+				line-height: 34px;
+				color: #FFFFFF;
+				text-transform: capitalize;
+			}
+
+			.visitblog6{
+				position: absolute;
+				width: 150px;
+				height: 20px;
+				left: 738px;
+				top: 2008px;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 12px;
+				line-height: 20px;
+				color: #CFAE02;
+				text-decoration: none;
+			}
+
+			.kotak7{
+				position: absolute;
+				width: 1262px;
+				height: 409px;
+				left: 0px;
+				top: 2291px;
+				background: #141313;
+			}
+			.get3{
+				position: absolute;
+				width: 240.93px;
+				height: 34.07px;
+				left: 150.06px;
+				top: 121px;					
+				font-style: normal;
+				font-weight: bold;
+				font-size: 36px;
+				line-height: 44px;
+				color: #FFFFFF;
+				}
+
+			.forbusiness3{
+				position: absolute;
+				width: 867.13px;
+				height: 22.46px;
+				left: 146.95px;
+				top: 192.62px;
+				font-style: normal;
+				font-weight: semi-bold;
+				font-size: 24px;
+				line-height: 29px;
+				color: #FFFFFF;
+			}
+
+			.logo11{
+				position: absolute;
+				Width :43px;
+				Height :43px;
+				Top :244px;
+				Left: 147px;
+				border: none;
+				box-sizing: none;
+				color: white;
+				cursor: pointer;
+			}
+
+			.logo12{
+				position: absolute;
+				Width :43px;
+				Height :43px;
+				Top :244px;
+				Left: 235px;
+				border: none;
+				box-sizing: none;
+				color: white;
+				cursor: pointer;
+			}
+
+			.logo13{
+				position: absolute;
+				Width :43px;
+				Height :43px;
+				Top :244px;
+				Left: 322px;
+				border: none;
+				box-sizing: none;
+				color: white;
+				cursor: pointer;
+			}
